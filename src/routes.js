@@ -10,6 +10,8 @@ import App from './components/App';
 import Caps from './components/Caps';
 import Gallery from './components/Gallery';
 import Profile from './components/Profile';
+import Signup from './components/Sign-up';
+import Signin from './components/Sign-in';
 
 // create my component
 const MyRoute = () => (
@@ -17,6 +19,8 @@ const MyRoute = () => (
     <App name='layout'>
       <Switch>
         <Route exact path="/" component={Caps} />
+        <Route exact path="/sign-up" component={Signup} />
+        <Route exact path="/sign-in" component={Signin} />
         <Route path="/gallery" component={Gallery} />
         <Route path="/profile" component={Profile} />
         <Route component={NotFound} />

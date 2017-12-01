@@ -33,7 +33,7 @@ export default class Gallery extends Component {
 
         return (
             <div>
-                <h1>Page de la Gallerie</h1>
+                <h3 className="alert alert-success">Page de la Gallerie </h3>
                 {arrayCaps}
             </div>
         );
