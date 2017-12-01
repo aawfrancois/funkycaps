@@ -18,7 +18,7 @@ class Caps extends Component{
         return(
             <div>
               <p>{randomCaps.movie}</p>
-              <img src={randomCaps.pathcaps} />
+              <img src={`screencaps/` + randomCaps.pathcaps} />
             </div>
         )
     }
@@ -38,7 +38,7 @@ export default class MoviesCaps extends Component {
 
         return(
             <div>
-              <h1>Welcome to your home dude </h1>
+              <h3 className="alert alert-success">Welcome to your home dude </h3>
               <Caps/>
             </div>
         );

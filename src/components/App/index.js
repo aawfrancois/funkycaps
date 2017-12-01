@@ -11,9 +11,9 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to FunkyCaps</h1>
           <nav className='App-nav'>
-            <Link to='/'>Home</Link> &nbsp; &nbsp;
-            <Link to='/gallery'>Gallery</Link> &nbsp; &nbsp;
-            <Link to='/profile'>Profile</Link>
+            <Link class="btn btn-success" to='/'>Home</Link> &nbsp; &nbsp;
+            <Link class="btn btn-success" to='/gallery'>Gallery</Link> &nbsp; &nbsp;
+            <Link class="btn btn-success" to='/profile'>Profile</Link>
           </nav>
         </header>
           {this.props.children}
