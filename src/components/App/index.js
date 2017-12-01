@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import logo from './funky.jpg';
 import './App.css';
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
+import '../Profile/profile.css';
+
 
 class App extends Component {
   render() {

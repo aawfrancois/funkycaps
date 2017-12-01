@@ -18,7 +18,7 @@ class Caps extends Component{
         return(
             <div>
               <p>{randomCaps.movie}</p>
-              <img src={`screencaps/` + randomCaps.pathcaps} />
+              <img src={"screencaps/"+randomCaps.pathcaps} />
             </div>
         )
     }
