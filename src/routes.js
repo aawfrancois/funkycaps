@@ -9,7 +9,7 @@ import NotFound from './components/NotFound';
 import App from './components/App';
 import Caps from './components/Caps';
 import Gallery from './components/Gallery';
-import Upload from './components/Upload';
+import Profile from './components/Profile';
 
 // create my component
 const MyRoute = () => (
@@ -18,7 +18,7 @@ const MyRoute = () => (
       <Switch>
         <Route exact path="/" component={Caps} />
         <Route path="/gallery" component={Gallery} />
-        <Route path="/upload" component={Upload} />
+        <Route path="/profile" component={Profile} />
         <Route component={NotFound} />
       </Switch>
     </App>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import logo from './funky.jpg';
 import './App.css';
 import {Link} from 'react-router-dom'
 
@@ -13,7 +13,7 @@ class App extends Component {
           <nav className='App-nav'>
             <Link to='/'>Home</Link> &nbsp; &nbsp;
             <Link to='/gallery'>Gallery</Link> &nbsp; &nbsp;
-            <Link to='/upload'>Upload</Link>
+            <Link to='/profile'>Profile</Link>
           </nav>
         </header>
           {this.props.children}
