@@ -1,0 +1,26 @@
+[
+  {
+    "pathcaps": "./caps-001-unbreakable.jpg",
+    "movie" : "Unbreakable"
+  },
+  {
+    "pathcaps": "./caps-002-boyz-n-the-hood.jpg",
+    "movie" : "Boyz n the Hood"
+  },
+  {
+    "pathcaps": "./caps-003-back-to-the-future-II.jpg",
+    "movie" : "Back to the Future II"
+  },
+  {
+    "pathcaps": "./caps-004-jurassic-park.jpg",
+    "movie" : "Jurassic Park"
+  },
+  {
+    "pathcaps": "./caps-005-forrest-gump.jpg",
+    "movie" : "Forrest Gump"
+  },
+  {
+    "pathcaps": "./caps-006-indiana-jones-and-the-temple-of-doom",
+    "movie" : "Indiana Jones And The Temple Of Doom"
+  }
+]
