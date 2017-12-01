@@ -16,7 +16,7 @@ const MyRoute = () => (
   <Router>
     <App name='layout'>
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/" component={Caps} />
         <Route path="/gallery" component={Gallery} />
         <Route path="/upload" component={Upload} />
         <Route component={NotFound} />

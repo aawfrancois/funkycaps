@@ -3,14 +3,32 @@
 
 import React, { Component } from 'react';
 import axios from 'axios';
-import pictures from'./caps-001-unbreakable.jpg';
+import capsJson from'./../../data/caps.json';
+
+// function getRandomPicture() {
+//
+//   // return 6 * Math.floor(Math.random());
+//   return Math.random() * 6;
+//
+// }
+
+function getRandomPicture(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min +1)) + min;
+}
 
 
 class Caps extends Component{
   render(){
+    let nb = getRandomPicture(0,5);
+    let randomCaps = capsJson[nb];
+    console.log(nb);
     return(
       <div>
-        <img src={pictures} />
+
+        <p>{randomCaps.movie}</p>
+        <img src={randomCaps.pathcaps} />
       </div>
     )
   }
@@ -22,19 +40,16 @@ export default class MoviesCaps extends Component {
       this.state = {
       picture: []
     }
-    this._fetchPitures();
+    // this._fetchPitures();
   }
 
 
   render () {
-      const picturesComponent = this.state.characters.map(c => {
-        let avatar = c.thumbnail.pathcaps;
-        return <Caps avatar={avatar}  />;
-      });
+
       return(
         <div>
-          <h1>HomePage</h1>
-          {picturesComponent}
+          <h1>Welcome to your home dude </h1>
+          <Caps/>
         </div>
       );
 
